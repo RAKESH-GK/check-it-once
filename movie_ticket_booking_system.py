@@ -38,7 +38,7 @@ class movie:
             if ch=="y":
                 self.store_data[seat_number]=[name,gender,age,phone]
                 print("\nseat number",seat_number,"booked succesfully..")
-                print(self.store_data)
+                #print(self.store_data)
             else:
                 print("\nBooking cancelled..!")
 
